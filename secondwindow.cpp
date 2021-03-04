@@ -2,12 +2,16 @@
 #include "ui_secondwindow.h"
 #include <QMessageBox>
 #include <QIcon>
+#include <QPixmap>
 
 secondWindow::secondWindow(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::secondWindow)
 {
     ui->setupUi(this);
+    QPixmap pix("//home/nimra/Cplusplus/guiApplication/welcome.png");
+    ui -> label_image_2->setPixmap(pix);
+
 }
 
 secondWindow::~secondWindow()

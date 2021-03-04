@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>439</width>
-    <height>266</height>
+    <height>226</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>190</y>
+      <x>130</x>
+      <y>150</y>
       <width>111</width>
       <height>25</height>
      </rect>
@@ -30,7 +30,7 @@
    <widget class="QLabel" name="label_date_time_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>70</x>
       <y>130</y>
       <width>101</width>
       <height>21</height>
@@ -43,34 +43,34 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>10</x>
       <y>130</y>
-      <width>67</width>
+      <width>61</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Time</string>
+     <string>Time:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>157</y>
+      <x>230</x>
+      <y>130</y>
       <width>67</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Date</string>
+     <string>Date:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_date_time_3">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>160</y>
+      <x>290</x>
+      <y>130</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -82,7 +82,7 @@
    <widget class="QLabel" name="label_image">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>10</y>
       <width>421</width>
       <height>101</height>
@@ -102,6 +102,12 @@
      <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSystem_Login">
+    <property name="title">
+     <string>System Login</string>
+    </property>
+   </widget>
+   <addaction name="menuSystem_Login"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
